@@ -3,12 +3,15 @@
 
 [install]
 libreoffice
+apcalc
 
 [single]
-2034 echo "2034? " >> /tmp/routine/IvebeenHere.txt
+212 echo "It is possible to run single code" >> /tmp/HADES-output.txt
 
 [routine-root]
-mkdir /tmp/routine
+echo "I am routine-root, whoami:" >> /tmp/HADES-output.txt
+whoami >> /tmp/HADES-output.txt
 
 [routine]
-echo "Ahoj" >> /tmp/routine/IveBeenHere.txt
+echo "I am routine, whami:" >> /tmp/HADES-output.txt
+whoami >> /tmp/HADES-output.txt
