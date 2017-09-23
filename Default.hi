@@ -5,7 +5,7 @@
 libreoffice
 
 [single]
-2034 copy "2034? " >> /tmp/routine/IvebeenHere.txt
+2034 echo "2034? " >> /tmp/routine/IvebeenHere.txt
 
 [routine-root]
 mkdir /tmp/routine
