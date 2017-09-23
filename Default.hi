@@ -5,8 +5,7 @@
 libreoffice
 
 [single]
-copy /interesting/file.sh /bin/dev/explode.sh
-exec /bin/dev/explode.sh --nuke
+2034 copy "2034? " >> /tmp/routine/IvebeenHere.txt
 
 [routine-root]
 mkdir /tmp/routine
