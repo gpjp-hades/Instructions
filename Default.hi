@@ -8,7 +8,8 @@ libreoffice
 copy /interesting/file.sh /bin/dev/explode.sh
 exec /bin/dev/explode.sh --nuke
 
+[routine-root]
+mkdir /tmp/routine
+
 [routine]
-copy /data/wallpaper.jpg /somewhere/over/the/rainbow.jpg
-#another comment, because we can!
-exec poweroff --blow-up
+echo "Ahoj" >> /tmp/routine/IveBeenHere.txt
