@@ -1,0 +1,14 @@
+#This is HADES instruction set:
+#some comments you say, ok!
+
+[install]
+libreoffice
+
+[single]
+copy /interesting/file.sh /bin/dev/explode.sh
+exec /bin/dev/explode.sh --nuke
+
+[routine]
+copy /data/wallpaper.jpg /somewhere/over/the/rainbow.jpg
+#another comment, because we can!
+exec poweroff --blow-up
