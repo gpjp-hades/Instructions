@@ -1,6 +1,9 @@
 #This is HADES instruction set:
 #some comments you say, ok!
 
+[routine]
+sudo apt-get update
+
 [install]
 #libreoffice
 #apcalc
