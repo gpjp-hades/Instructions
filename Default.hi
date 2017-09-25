@@ -2,11 +2,13 @@
 #some comments you say, ok!
 
 [install]
-libreoffice
-apcalc
+#libreoffice
+#apcalc
+mc
 
 [single]
-212 echo "It is possible to run single code" >> /tmp/HADES-output.txt
+#212 echo "It is possible to run single code" >> /tmp/HADES-output.txt
+213 sudo apt-get update
 
 [routine]
 touch /tmp/HADES-output.txt
