@@ -3,6 +3,7 @@
 
 [routine]
 sudo apt-get update
+sudo echo "I am routine, running with explicit sudo!" > /opt/gpjp-hades/TEST.out
 
 [install]
 #libreoffice
