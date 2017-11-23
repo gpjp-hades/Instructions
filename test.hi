@@ -1,1 +1,2 @@
-meh, hope it works
+[routine-root]
+echo "I am routine-root, whoami:" >> /tmp/HADES-output.txt
