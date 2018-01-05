@@ -1,0 +1,14 @@
+---
+- hosts: VM
+  remote_user: gpjp
+  tasks:
+  - name: download VSCode
+    get_url:
+      url: https://go.microsoft.com/fwlink/?LinkID=760868
+      dest: /tmp/vscode.deb
+  
+  - name: install VSCode
+    apt:
+      deb: /tmp/vscode.deb
+      become: yes
+      become_method: sudo
